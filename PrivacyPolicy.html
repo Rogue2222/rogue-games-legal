@@ -28,7 +28,7 @@
 <body>
 
   <h1>Privacy Policy — Neodoku</h1>
-  <p class="effective">Effective 30 July 2026</p>
+  <p class="effective">Effective 12 August 2026 &nbsp;·&nbsp; previous version effective 30 July 2026</p>
 
   <p>This Privacy Policy applies to <strong>Neodoku</strong>, a mobile puzzle game published by
     <strong>Rogue Games</strong> (the &ldquo;Service Provider&rdquo;), together with any related services
@@ -46,8 +46,10 @@
   <h2>The short version</h2>
   <p>Neodoku has no accounts, no login, and no registration. It never asks you for your name, email address or
     any other personal detail, and your game progress is stored on your own device. The only personal data
-    involved is what the Application's third-party analytics and advertising components collect automatically,
-    and those are switched off until you agree to them.</p>
+    involved is what the Application's third-party analytics and advertising components collect automatically.
+    <strong>Analytics is switched off entirely unless you opt in.</strong> The game is funded by advertising, so
+    adverts are shown either way — but if you decline, they are non-personalised, your advertising ID is
+    withheld, and no interest profile is built about you.</p>
 
   <h2>What information does the Application collect?</h2>
 
@@ -64,11 +66,30 @@
       (Google Advertising ID on Android; Identifier for Advertisers on iOS)</li>
     <li>IP address, from which an approximate country or region may be derived</li>
     <li>Application usage and gameplay events — for example levels started and completed, scores, session
-      length, purchases of in-game items, and interactions with advertisements</li>
-    <li>Crash and performance diagnostics</li>
+      length, purchases of in-game items, interactions with advertisements, and whether a reminder
+      notification was opened</li>
+    <li>Technical diagnostics reported by the analytics and advertising components themselves, such as SDK
+      errors and delivery performance</li>
   </ul>
-  <p>If you decline, the analytics and advertising components are not started and this data is not collected.
-    Advertisements shown in that case are non-personalised.</p>
+
+  <h3>What happens if you decline</h3>
+  <p>Declining is a real choice and it is honoured in code, but the two components behave differently, and this
+    policy would rather be exact than flattering:</p>
+  <ul>
+    <li><strong>Analytics is not started at all.</strong> No gameplay events, scores or session data are
+      collected or sent. Nothing is buffered for later.</li>
+    <li><strong>Advertising still runs, in a restricted mode.</strong> The Application is funded by adverts, so
+      they continue to be shown — but the advertising SDK is told to withhold your device identifier, to treat
+      your data as not available for sale or sharing, and to serve only <strong>non-personalised</strong>
+      adverts. No interest profile is built about you.</li>
+  </ul>
+  <p>Even for a non-personalised advert, the advertising network necessarily receives a minimum of technical
+    information in order to deliver it and to prevent fraud — typically your IP address, coarse device and
+    operating-system details, and the fact that an advert was requested. This is the irreducible minimum for
+    showing any advert at all; it is not used to build a profile of you.</p>
+  <p>If you would prefer to see no adverts between rounds, the paid <strong>Remove Ads</strong> in-app purchase
+    removes the interstitial adverts. Optional &ldquo;watch an advert for a reward&rdquo; adverts remain
+    available to everyone, because you choose to start those yourself.</p>
 
   <h3>Purchases</h3>
   <p>In-app purchases are processed entirely by the app store you bought the Application from (Google Play or
@@ -79,6 +100,19 @@
   <h3>Location</h3>
   <p>The Application does not collect precise location data and does not request location permission. Approximate
     country-level location may be inferred from your IP address by the third-party services listed below.</p>
+
+  <h3>Notifications</h3>
+  <p>The Application can send you a single local reminder about your daily puzzle streak. It is scheduled on your
+    own device by the Application itself; no notification service receives your data and no message is sent from
+    a server. On Android 13 and later you are asked for notification permission before any reminder is scheduled,
+    and you can revoke it at any time in your device settings. If you have consented to analytics, the fact that
+    a reminder was opened is recorded as a gameplay event.</p>
+
+  <h3>Error log stored on your device</h3>
+  <p>The Application writes errors and crash details to a plain text file in its own private storage so that a
+    problem can be diagnosed if you choose to report one. <strong>This file never leaves your device.</strong> It
+    is not uploaded, not transmitted to the Service Provider, and is deleted when you uninstall the Application.
+    If that ever changes, this policy will be updated before it does.</p>
 
   <h2>Legal bases for processing (GDPR)</h2>
   <p>Where the GDPR applies, the Service Provider relies on the following lawful bases:</p>
@@ -93,8 +127,9 @@
   </ul>
 
   <h2>Your choices</h2>
-  <p>When you first open the Application you are asked whether you consent to analytics and personalised
-    advertising. <strong>Both are off until you opt in.</strong> Declining does not restrict any part of the game.</p>
+  <p>When you first open the Application you are asked a single question covering both analytics and personalised
+    advertising. <strong>Both are off until you opt in</strong>, and no answer stored means no consent. Declining
+    does not restrict any part of the game — every level, mode and feature remains available.</p>
   <p>You can change your answer at any time in the Application's <strong>Settings</strong> screen. Withdrawing
     consent stops further collection; it does not undo processing that already took place lawfully before you
     withdrew.</p>
@@ -164,6 +199,8 @@
   <h2>Children</h2>
   <p>Neodoku is a general-audience puzzle game. It is not directed at children, is not designed or marketed for
     them, and contains no content aimed at them — but it is not age-restricted, and children may play it.</p>
+  <p>The Application's target audience on the app store is declared as <strong>13 and over</strong>, and it is
+    not enrolled in Google Play's Families programme.</p>
   <p>The Service Provider does not knowingly collect personal data from children below the applicable age of
     digital consent, which is 16 in some countries and as low as 13 in others. Because analytics and personalised
     advertising require an affirmative opt-in that is off by default, no data in those categories is collected
@@ -223,7 +260,7 @@
 
   <hr>
   <footer>
-    <p>Rogue Games — Neodoku. Last updated 30 July 2026.</p>
+    <p>Rogue Games — Neodoku. Last updated 12 August 2026.</p>
   </footer>
 
 </body>
